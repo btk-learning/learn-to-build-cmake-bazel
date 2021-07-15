@@ -1,0 +1,5 @@
+cc_binary(
+    name = "main",
+    srcs = ["main.cpp"],
+    copts = ["-Ipath/that/doesnt/exist -Wall -Wmissing-include-dirs"],
+)
